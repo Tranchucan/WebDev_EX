@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Classifieds Search Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="form-container">
+
+        <h2 class="form-title">Online Classifieds Search Form</h2>
+        <hr>
+
+        <div class="form-section">
+            <p><strong>1) Search for a classified in the following sections:</strong></p>
+            <div class="radio-group">
+                <label><input type="radio" name="section" value="employment"> Employment</label>
+                <label><input type="radio" name="section" value="for_sale" checked> For Sale</label>
+                <label><input type="radio" name="section" value="housing"> Housing</label>
+
+                <label><input type="radio" name="section" value="personal"> Personal</label>
+                <label><input type="radio" name="section" value="miscellaneous"> Miscellaneous</label>
+                <label><input type="radio" name="section" value="all"> All of the above</label>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <p><strong>2) Search the following publications:</strong></p>
+            <div class="checkbox-group">
+                <label class="checkbox-item"><input type="checkbox" name="publication" value="midwest_times" checked> Midwest times</label>
+                <label class="checkbox-item"><input type="checkbox" name="publication" value="modern_news"> Modern News</label>
+                <label class="checkbox-item"><input type="checkbox" name="publication" value="employment_today"> Employment Today</label>
+
+                <label class="checkbox-item"><input type="checkbox" name="publication" value="great_lakes" checked> Great Lakes Classifieds</label>
+                <label class="checkbox-item"><input type="checkbox" name="publication" value="middleton_daily"> Middleton Daily</label>
+                <label class="checkbox-item"><input type="checkbox" name="publication" value="cashtown_news"> Cashtown Daily News</label>
+            </div>
+        </div>
+
+        <div class="form-section date-section">
+            <p><strong>3) From to </strong></p>
+            <div class="date-inputs">
+                <input type="text" name="date_from" value="mm/dd/yy" class="date-input-field">
+                <span class="to-separator">to</span>
+                <input type="text" name="date_to" value="mm/dd/yy" class="date-input-field">
+            </div>
+        </div>
+
+        <div class="form-section">
+            <p><strong>4) Enter a few keywords to describe the classified.</strong></p>
+            <input type="text" name="keywords" class="keyword-input">
+        </div>
+
+        <div class="form-section button-section">
+            <p><strong>5) Click one of the options below:</strong></p>
+            <div class="button-icons">
+                <div class="action-button">
+                    <span class="icon check-icon">✔</span>
+                    <span class="label">Search</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon help-icon">?</span>
+                    <span class="label">Help</span>
+                </div>
+                <div class="action-button">
+                    <span class="icon cancel-icon">✖</span>
+                    <span class="label">Cancel</span>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </div>
+
+</body>
+</html>
