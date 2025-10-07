@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Server Get-Tran Chuc An</title>
+        <script>
+            function getUrlVars(){
+                var vars={}
+                var parts=window.location.href.replace(/[?&]+[^=&]+)=([^&]*)/gi,
+                function(m,key,value){
+                    vars[key]=value;
+                });
+                return vars;
+            }
+            var ten=unescape(getUrlVars()["txtten"]);
+            var email=unescape(getUrlVars()["txtemail"]);
+        </script>
+    </head>
+</html>

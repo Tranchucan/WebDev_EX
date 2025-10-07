@@ -1,0 +1,151 @@
+body {
+    font: 16px Arial, sans-serif; /* Rút gọn font */
+    background-color: #e6f7ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #99d6ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner/Logo */
+.header-banner {
+    background-color: #5d4037;
+    text-align: center;
+    padding: 10px 0;
+    margin: -30px -30px 20px -30px;
+    border-bottom: 2px solid #3e2723;
+    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.5), 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo-text {
+    font: bold 36px 'Times New Roman', serif; /* Rút gọn font */
+    color: #ffd700;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    padding: 5px 0;
+}
+
+h2 {
+    color: #004d99;
+    border-bottom: 1px solid #99d6ff;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Nhóm các thuộc tính chung cho Input, Textarea, Select */
+input[type="text"], textarea, select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding: 5px 0;
+}
+
+.form-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Bảng chi phí */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Nhóm chung cho các ô và tiêu đề bảng */
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+
+table th {
+    background-color: #e9ecef;
+}
+
+/* Rút gọn input/select trong bảng */
+table input[type="text"], table select {
+    width: 95%;
+    border: none;
+    padding: 3px; /* Giữ padding để dễ nhập liệu */
+}
+
+#purpose {
+    width: 100%;
+    resize: vertical;
+}
+
+.form-group:nth-child(2) input[type="text"] {
+    width: 200px;
+    margin-right: 20px;
+}
+
+/* Radio buttons */
+.radio-group {
+    margin: 20px 0 20px 0; /* Rút gọn margin */
+    padding-bottom: 20px;
+}
+
+.radio-label {
+    margin: 0 20px 0 5px; /* Rút gọn margin */
+}
+
+/* Nút Submit và Reset */
+.form-actions {
+    margin-top: 20px;
+}
+
+/* Nhóm chung cho các nút */
+.submit-btn, .reset-btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.reset-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.reset-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Thông tin liên hệ */
+.contact-info {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+    font-size: 0.9em;
+    color: #666;
+}
